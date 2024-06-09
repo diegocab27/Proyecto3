@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Mundo Marcial</title>
+</head>
+<body class="bg-black bg-gradient" >
+<header>
+  <div class="nav__bar">
+    <div class="menu_boton">
+        <i class="bi bi-menu-down"></i>
+        <b class="menu">Menú</b>
+    </div>
+    <div class="marca">
+        <img class="logo"   src="assets/logo.png" >
+        <h1>Mundo Marcial</h1>
+    </div>
+    <nav class="navbar">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+  </div>    
+</header>
+
+<main>
+  <div class="imagen__principal">
+            <div class="intro">
+             <h2 class="display-4" >
+                Equipate como un guerrero
+            </h2>
+            <p>
+                Encuentra con nosotros toda la indumentaria y los artículos deportivos que necesitas para dar lo mejor de ti.
+            </p>
+            </div>
+            <div class="carrusel">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets/tienda1.jpg" class="img-fluid" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/tienda2.webp" class="img-fluid" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/tienda 3.webp" class="img-fluid" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+</main>
+
+<section class="productos">
+          <div class="card" style="width: 18rem;">
+              <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Saco de Box Ultimate</h5>
+                <p class="card-text">Si eres un amante del boxeo o simplemente buscas una rutina de entrenamiento completa y efectiva, el Saco de Boxeo profesional de 20 kg </p>
+                <a href="#" class="btn btn-success">$80.000</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;" >
+              <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhMSEhMQDxAXEBASExUPEBAQEBATFxMWGRYSFRUYHSggGBolGxMVITEiJSsrLy4uGB8zODMsNygtLi0BCgoKDQ0OFQ8NFTcZFRkrMTc3KyssLzIuKyszKzcrKys3Ny43KysrMDcrNzIrLSswNCsrKy0tKy4xODgrNy0rK//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABAUCAwYHAQj/xAA9EAACAQIDBQYEAwYFBQAAAAAAAQIDEQQSIQUxQVFxBiJhgZGxBxMyoSPR8BRCUmJywUOCkqLxM1NzsuH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAaEQEBAAIDAAAAAAAAAAAAAAAAARFBAhIh/9oADAMBAAIRAxEAPwD3EAAAAAAAAAAAAAAKHtx2khs7B1cVJKUopRpxbt8yrLSEel9X4JgO1XbDBbOipYqqoSavCnFZ61T+mC1t4uy8TynbXx9ndrCYSKXCeKm5N9acLW/1FXsD4fV8fKWP2pWqRVT8XK2lWnHfmm3pSp23RS0X8KSOT2nhqePxkcJsvDwhRi3GDs81RJ97EVakryUeSb0VtLsDuuw3xfxlfH0aWLdL9nqydNxpUsuSUl3J31lbNZPW1m3wPd6daMvplGXRpnl/YrsPh8BHNFfNxDilOrJavnGC/cj93x4HVpbmt+nuB1AKrD41xdneUb211a6FnCaautUwMgAAAAAAAAAAAAAAAAAAAAAAAAAAANWKlaL5vRARsVj7aQWZ7tdx4p2r208btvC4Op+Jh6OJppxl9M6jipybW62kY28Jcz19x1b8uiPzNjNqSw+162Jt8yVLaOInlbtmy1prLfhpoB6L8W+0NSThsvCpzxFfKqqg+8oS+ml4Zt75RWujOm7E9kqWz6CpxSlXkk69TjOX8K5QV7Jee9nLfCHZEq0q+1cT+JXq1akKTlw/7s48ld5FyUJLiemtFGHQSlZw8ZvytFv3RkYVV9PhNv8A2SKNkXqT9nV7acL2ZWzqqKb5K/XwJeBptU1f6m031e8C8BE2ZjKdWmpU5wqxUpQzQkpRzQk4yV1xTViWZAAAAAAAAAAAAAAAAAAAAAAAAAi4x/T5koh46WsfMCHXR+Zu3+HjHaGMcO9B4mTvHWOZpOcb81NyT8UfpiTvO3BK55ltr4VyrVqtRY5xVSrVqZJ4VVIwVSpKbivxFuztX8Bc6Xx1PYHDxp7MwcY2t+zU5u1vqqd+f+6ci7ZF2Ls79mwtDD5s/wAulCnmy5c2VWvlu7dCUVGE0asRWUYOb3RtJ2V3a+r9Lm9oiY6F6dSO69Kavy7r1KPlPvu2+LlfrFPT2M+0NGtUw7p0lJuU1GajOFNyp/vRzSTsmt7VpW3O5T9ksVKScZXvBxjf915tbLxX5HU05d1kooPhtsithXVhUVTLOMJuU50pZqsbxc5ZX9bhkTl+8qabs7uXdFVhZ2d/EtUQAAAAAAAAAAAAAAAAAAAAAAAACs2jLjy0LGcrJsqq0t/Jlg14db34IS+7GHVkfYb2wNdY1mVVmhVeegG1EfE7n0aN99CJiqlk+diiLsXD5Irk5t9Nd365lwjXsShGcZwe9NTi1v1VvTRGWb7kGynUsy5w8rxRRxLTAz4CiaACAAAAAAAAAAAAAAAAAAAAAAibQqWSRXVZ6EraWuvL9MrVUXEo3YaWnR/2/MzqNJW82bvkqlBSlo25N30srX+yiQKWNozby1KdR8cs4y9gMpO5rnS8jXVxGZ2WdR5xi3f0K7H7eoYfTEYijS/8k1Cb8Mj1v5FE9Nxdnufoa8ZUW5qzOM2p8V9nRTjB1sTLh8uk4q643nbQ43bvxUxFd5aEI4WCekpONWr4NNq0fRge47Anadt7atZa2XN8jZVpZZTXKTt0e73Kb4PbTlXwF5zdSca9SLlJ3m7qMld739T3nS7XhZp81bzRBXyZOwcrRv5kBPxJ1D6X0At0wacJO8V6ehuIAAAAAAAAAAAAAAAAAAAGNSaSbe5K5kaMa7QYFJjMW5XSTSbvrvN2x8Hd53uW7xZDb10/M6LCUssIrjbXq95aOA+OlSK2fBOWVvEwjGzs5ZqVWLXSzd/C5+edlbaxWFcv2erKlf6lFRcW1daxatfV6npHxZ2vPaW0o4PD3qU8PmppQ1z1m182S4aWjDXc4y4HL7b+GmPouDpweJjP6vkpylSfKa4r+ZK2j3aAVuP7b42tBQdV01x+VmjKXWTba8rHOzbbbbcm3dtu7b5ts9HwPwrqVIycpyotJZc0VPPLjdaWW4ptq/DnHUU5RhHEQv8A4L766wdn6XAh9mOxuNx3ew9JOnezqVJxhTj66vyTPQdk/ByKd8ViXJ3inDDQUVrf/EndtXsvpR5NSqV8NU0lXwlVb3F1KNWKfSzPRNgdu9pQrU6TnTx0HUoU5OtBRmvmyajaULN6K93cZi9bZeWo9m7FbFo4CEqNFNQlNyeaUpyb4O7fLTyOi2hC8H4WZT4bEd/K+V0+Eky5oSzRa8GhUUbSRKoS08TVJGVOtFcV6oqLHAS3x8yYVuDqXnpro72Tsl1LIlUABAAAAAAAAAAAAAAAAAAAEeWBpt3ypPw0+yOe+IW2MRQw8KeDj8zG4iqqFBLfC8W51eSUYq93om03odSYOnHMpWWZJxUrLMk2m0nwTyx9EB592I7CQ2bGbnJV8TO2epZ2SsnkjfW2Zt3er3+B0tGH1PmS8e9X4uxF+ZZqHHJm+7RYjVGmkmvG58rYeL3pG0ykiin2lsajXjkrU4VYrd8yEZ29Tn8J8NcDRxFPE0VUpyhmeRTzUZNxaTtK8la99HbRHZMj4jEZer3LmBspx1VtUllv4FjhMQ1JLfdpeJC2brpz3eDLfCYPK80mnLcrbkvzAxxOyqc33nPopWXoYUtjUY8G+sn/AGLEGVY04KKskkvDQyAAAAAAAAAAAAAAAAAAAAAAAAAAq8a1F952vr6nPLFSnOc2nHvJRutcq3F32gW7p+ZXUleDXUo2xxUNLySfK+p9eMi72U5W0dlb/wBmiixd9Gv1+rlngneKlzjHzfEDbPEfytdWv7XK+cu829X+tCVURFcNSi02XLjyafkdMc3s6FvY6KnuXREGQAIAAAAAAAAAAAAAAAAAAAAAAAAAAAo+0uIhH5alKMXJyjHM0sz07qvveu4rKdTSxbdpsLCcIOUIzcaiccyTcXvuuWsV6FLxKI2MhZKX83uStnfS1wvmXR7/AL3MMRrG3j/Ym7Fw2aE+LWq/IKwlDUU6Rst+RktLlZbqOhd4d3iuhRy4FvgJXh5kokgAigAAAAAAAAAAAAAAAAAAAAAAAAAAr9uf9L/NE52SOn2rG9KXk/Ro5mUQMJ7lw1L/AGBStFvmyhq7un/w6XYr/Bj/AJvdgVeNjacv6mYveSdqU7Tvwdn+vQjs1EZw1XiWOyp6NdCupsm4DSfVP8yUWYAIoAAAAAAAAAAAAAAAAAAAAAAAAAANWKjeElzjL2OVZ1zRyc46lGOW9lzbR0Wx1+FHz92c/wAvN+x0ezV+HHxu/Vsg07ZheCfJ/Z/8FXDcXuOhmpyXhf01KGnuLBlEnYN96PNP3IMSThpWkuqKi6ABlQAAAAAAAAAAAAAAAAAAAAAAAAAADmcTT781/NL3OmKLacO/K3Gz+wEJWulw1XsdFgFanHp/c5ynG7t4nT0FaMV/KvYo2HPTp5ZSXKTOhKnalK00+a+6/SEEKxspy1MKj4H2kio6FAxpvRdEZGVAAAAAAAAAAAAAAAAAAAAAAAAAAAKPFSzSb8fsW+Kq5YuXJffgc1JFg20o971OipfSui9jnsJBt2WreiOipqyS8EBkQNqSXd56vy/VieUOPquU5eHd8k/zEGlvmZxI/ubUVHQUH3Y/0r2Nhrw67kf6Y+xsMqAAAAAAAAAAAAAAAAAAAAAAAAAAAaXhaf8ABD/SjcAMKdKMfpSj0SRmAAKzHYW0nNbnv8HzLM1YpXhLj3X7AUeRG2hRvJLm/sfYUJP92XoyfgsM496Wj4I0iYADKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/2Q==" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Dobok Adidas</h5>
+                <p class="card-text">Creado para quienes deseen iniciar en el mundo del Taekwondo, resistente, muy ligera y cómoda para entrenar.</p>
+                <a href="#" class="btn btn-success">$30.000</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Guante de Boxeo Everlast </h5>
+                <p class="card-text">El ajuste seguro mantiene la protección y la comodidad durante una variedad de ángulos al golpear.</p>
+                <a href="#" class="btn btn-success">$33.000</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="https://tiendabushido.cl/wp-content/uploads/2020/12/2d0d913bb015e15e8515b5ec7d985af6784c330a_SHINGUARD_CHALLENGER_BLACK_HD_02.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Canillera Challenger Venum</h5>
+                <p class="card-text">Espuma de alta densidad con almohadilla adicional en toda la canillera.
+                  Ligeras en peso Marca en relieve y gráficos sofisticados.
+                  Diseñado en Tailandia.</p>
+                <a href="#" class="btn btn-success">$78.000</a>
+              </div>
+            </div>
+</section>
+
+<footer class="bg-grey bg-gradient">
+  <div class="socials">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-twitter-x"></i>
+  </div>
+  <div class="reservado">
+    <p class="text-white"> 
+    © TODOS LOS DERECHOS RESERVADOS
+    </p>
+  </div>
+
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+
+</body>
+</html>
+

@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+
+background-color: black;
+}
+
+h1{
+    font-family: "Audiowide",sans-serif;
+
+}
+
+.marca{
+    margin-left: 8%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+.menu_boton{
+   cursor: pointer;
+   font-size: 2rem;
+   margin-left: 1vh;
+}
+
+.logo{
+height: 3rem;
+margin-right: 1vh;
+}
+
+.nav__bar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+ background-color: white;
+ width: 100%;
+ top:0;
+ position: fixed;
+ height: 5rem;
+ z-index: 9;
+}
+
+
+.imagen__principal{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin-top: 4vh;
+width: 100%;
+height: 30rem;
+background-image:linear-gradient(rgb(255, 255, 255),rgba(22, 20, 20, 0.363)), url('assets/cinta.jpg');
+background-repeat: no-repeat;
+background-position: right;
+background-color: rgba(255, 255, 255, 0.795);
+}
+
+.intro{
+  width: 30rem;
+  font-family: "Orbitron", sans-serif;
+  font-size: 3vh;
+
+}
+
+.carrusel{
+    display: flex;
+    align-items: center;
+    width: 60vh;
+    margin-right: 30vh;
+    margin-top: 5vh;
+
+}
+
+
+
+.productos{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px #71db7aa8;
+    z-index: 9;
+}
+
+.card-img-top{
+    height: 20rem;
+
+}
+
+.card-text{
+    height: 7rem;
+}
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+
+}
+
+
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    font-size: 2vh;
+    width: 15vh;
+    margin-right: 30vh;
+    margin-left: 2vh;
+
+}
+
+.socials > i:hover{
+
+    color: rgb(86, 252, 20);
+    text-shadow:0px 0px 10px #fff ;
+    cursor: pointer;
+
+}
+
+.reservado{
+display: flex;
+align-items: center;
+height: 10vh;
+}
+
+
+@media screen and (max-width: 1250px) {
+
+    .menu_boton{
+        cursor: pointer;
+        font-size: 1rem;
+        margin-left: 1vh;
+     }
+
+    .nav__bar{
+         height: 4rem;
+         flex-wrap: nowrap;
+
+        }
+
+       .logo{
+        height: 2rem;
+        margin-top: 1vh;
+        }
+        .marca{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .intro{
+         font-size: 2vh;
+        }
+
+        .imagen__principal{
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
+        .carrusel{
+            display: flex;
+            width: 30vh;
+            margin-right: 0;
+        
+        }
+
+        .productos{
+            margin-top: 5vh;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 5vh;
+        }
+        .card{
+          width: 5rem;
+        }
+
+       footer{
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+        padding: 2vh;
+
+        }
+        
+        
+    
+}

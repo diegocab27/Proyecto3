@@ -23,6 +23,9 @@ El objetivo principal de este proyecto es desarrollar una interfaz utilizando HT
 
 Se crea un protoripado simple de lo que sera la pagina diseñado en la pagina  [draw.io](https://draw.io).
 
+![image](https://github.com/diegocab27/Proyecto3/assets/162330383/09982f30-13f6-4e9b-af97-126568edc0b3)
+
+
 #### 2. Archivo HTML5
 
 Creamos el archivo HTML señalando el title de `Mundo Marcial` en el `head` y enlazando el framework de `Bootstrap`.

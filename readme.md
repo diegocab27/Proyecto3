@@ -5,6 +5,8 @@
 
 En este proyecto se realiza una landing page para un negocio de una tienda ficticia, implementando HTML y CSS.
 
+![image](https://github.com/diegocab27/Proyecto3/assets/162330383/61c23be0-1bd9-4833-ba57-14b71750f508)
+
 
 ## Autor
 - Diego Cabrera Carrasco  [@diegocab27](https://www.github.com/diegocab27)
@@ -21,7 +23,7 @@ El objetivo principal de este proyecto es desarrollar una interfaz utilizando HT
 
 #### 1. Prototipado simple
 
-Se crea un protoripado simple de lo que sera la pagina diseñado en la pagina  [draw.io](https://draw.io).
+Se crea un prototipado simple de lo que sera la pagina diseñado en la pagina  [draw.io](https://draw.io).
 
 ![image](https://github.com/diegocab27/Proyecto3/assets/162330383/09982f30-13f6-4e9b-af97-126568edc0b3)
 
@@ -181,6 +183,8 @@ Se crea la seccion `footer` la cual se divide en la seccion de `socials` para la
 
 se importan las `fuentes` a utilizar en el proyecto 
 
+
+
 ```
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
@@ -192,6 +196,7 @@ se importan las `fuentes` a utilizar en el proyecto
 Aplicamos la fuente para el titulo del `Navbar` y para la marca aplicamos `flex` para ajustar al centro junto con el `logo` ,tambien ajustamos el tamaño del y su posicion`menu`
 por ultimo ajustamos el `Navbar` para que quede fijo y sobre lo demas que se muestre en pantalla 
 
+![image](https://github.com/diegocab27/Proyecto3/assets/162330383/225d8261-9391-4619-9ca4-b7c217a96796)
 
 ```
 h1{
@@ -233,6 +238,7 @@ justify-content: space-between;
 
 Se inserta una imagen de fondo para el `main` y se ajusta con un degradado de fondo cubriendo todo el ancho ,tambien se ajusta la fuente del `mensaje principal` y se ajusta la posicion que ocupara el `carrusel`. 
 
+![image](https://github.com/diegocab27/Proyecto3/assets/162330383/9b8958d7-46c1-491d-855e-7c47daf77163)
 
 ```
 .imagen__principal{
@@ -270,6 +276,9 @@ background-color: rgba(255, 255, 255, 0.795);
 
 Se ajustan los tamaños para las `cards` que utilizaremos para los prodcutos a mostrar y se crea un diseño que transforma la escala de la tarjeta al pasar el mouse.
 
+![image](https://github.com/diegocab27/Proyecto3/assets/162330383/8ff3229c-f397-4373-9536-96cc4dfed413)
+
+
 ```
 .productos{
     margin-top: 5vh;
@@ -300,6 +309,8 @@ Se ajustan los tamaños para las `cards` que utilizaremos para los prodcutos a m
 #### 5. Diseño del Footer
 
 Se ajusta el tamaño del `footer` y se aplica `flex` para ajustar la posicion de los iconos de redes y el mesaje mostrado,tambien se da un diseño a los icono al pasar el mouse
+
+![image](https://github.com/diegocab27/Proyecto3/assets/162330383/2040f313-fbb1-43cf-b378-3ff3395da772)
 
 
 ```

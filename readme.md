@@ -5,7 +5,7 @@
 
 En este proyecto se realiza una landing page para un negocio de una tienda ficticia, implementando HTML y CSS.
 
-Link de Proyecto: [Mundo Marcial]([https://draw.io](https://diegocab27.github.io/Proyecto3/))
+Link de Proyecto: [Mundo Marcial](https://diegocab27.github.io/Proyecto3/)
 
 ![image](https://github.com/diegocab27/Proyecto3/assets/162330383/61c23be0-1bd9-4833-ba57-14b71750f508)
 
